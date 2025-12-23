@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-c",
+      "-mmcu=atmega2560",
+      "-DF_CPU=16000000UL",
+      "-Os",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-o",
+      "main.elf",
+      "src/main.c"
+    ],
+    "directory": "/home/sangeeth-binu/system_33/avr_projects/keypad/calculator",
+    "file": "/home/sangeeth-binu/system_33/avr_projects/keypad/calculator/src/main.c",
+    "output": "/home/sangeeth-binu/system_33/avr_projects/keypad/calculator/main.elf"
+  },
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-c",
+      "-mmcu=atmega2560",
+      "-DF_CPU=16000000UL",
+      "-Os",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-o",
+      "main.elf",
+      "src/uart.c"
+    ],
+    "directory": "/home/sangeeth-binu/system_33/avr_projects/keypad/calculator",
+    "file": "/home/sangeeth-binu/system_33/avr_projects/keypad/calculator/src/uart.c",
+    "output": "/home/sangeeth-binu/system_33/avr_projects/keypad/calculator/main.elf"
+  }
+]
